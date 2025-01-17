@@ -2,7 +2,14 @@
 
 This repository demonstrates how to integrate object detection with scene graph reasoning using PyTorch, Detectron2, and PyTorch Geometric. The pipeline includes detecting objects in an image, constructing a scene graph, and applying a Graph Neural Network (GNN) for reasoning over the scene. Additionally, it incorporates rule-based reasoning using a predefined knowledge base.
 
----
+### Input
+![Input](https://drive.google.com/uc?id=1WKdbn8xUjZUMceW39HgdPmOVdYsTTctI "Input")
+### Test Output
+![Test Output](https://drive.google.com/uc?id=15ZnFYf85NEHp5Xnj6fXMkkXwPRuUI-NL "Test Output")
+Source on image: https://www.dreamstime.com/photos-images/driving.html 
+
+for Reasoning refer Jupyter Notebook attached
+
 
 ## Features
 1. **Object Detection**: Utilize Detectron2's pre-trained Faster R-CNN model for object detection.
