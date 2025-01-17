@@ -16,8 +16,8 @@ This repository demonstrates how to integrate object detection with scene graph 
 ### Clone the Repository
 To get started, clone this repository to your local machine:
 ```bash
-git clone https://github.com/<your-username>/<repo-name>.git
-cd <repo-name>
+git clone https://github.com/hassan-byt0/SceneGraph.git
+cd SceneGraph
 ```
 
 ### Install Dependencies( Optional as this step is already covered in notebook)
@@ -57,7 +57,7 @@ Follow these steps to set up the required environment:
     jupyter notebook
     ```
 2. Open the provided notebook file, `scene_graph_reasoning.ipynb`.
-3. Replace the placeholder in the code with the path to your image or use the sample image provided: `/content/car distance.webp`.
+3. Replace the placeholder in the code with the path to your image or use the sample image provided: `SceneGraph/car distance.webp`.
 4. Run all the cells in the notebook sequentially to:
     - Detect objects in the image.
     - Visualize detection results.
@@ -68,7 +68,7 @@ Follow these steps to set up the required environment:
 
 ## Example
 ### Input
-An image containing multiple objects (e.g., a car, person, and bicycle). Replace the `image_path` with your own image or use the included `/content/car distance.webp`.
+An image containing multiple objects (e.g., a car, person, and bicycle). Replace the `image_path` with your own image or use the included `/SceneGraph/car distance.webp`.
 
 ### Output
 - **Visualized Object Detection**: Displays bounding boxes and labels for detected objects.
@@ -78,8 +78,7 @@ An image containing multiple objects (e.g., a car, person, and bicycle). Replace
 
 ## Files
 - `scene_graph_reasoning.ipynb`: The main notebook containing the implementation.
-- `requirements.txt`: List of dependencies.
-- `/content/car distance.webp`: Sample image for testing.
+- `car distance.webp`: Sample image for testing.( your image)
 
 ---
 
@@ -87,6 +86,7 @@ An image containing multiple objects (e.g., a car, person, and bicycle). Replace
 - Expand the knowledge base with more complex rules.
 - Enhance edge definitions with spatial and semantic features.
 - Extend support for dynamic graphs with video data.
+- Optimize the Graph Neural net
 
 ---
 
